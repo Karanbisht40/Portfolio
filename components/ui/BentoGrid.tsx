@@ -1,9 +1,9 @@
+"use client";
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
-import Lottie from "react-lottie";
-
+import Lottie from "lottie-react";
 import { cn } from "@/lib/utils";
 
 
@@ -52,8 +52,23 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = [
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Python",
+  ];
+
+  const rightLists = [
+    "TypeScript",
+    "Java",
+    "NumPy",
+    "Pandas",
+    "Git & GitHub",
+    "Machine Learning",
+  ];
 
   const [copied, setCopied] = useState(false);
 
@@ -67,7 +82,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "karanbisht4041@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
