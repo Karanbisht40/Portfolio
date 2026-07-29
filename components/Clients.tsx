@@ -27,8 +27,8 @@ const Clients = () => {
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
-          {techStack.map((company) => (
-            <React.Fragment key={company.id}>
+          {techStack.map((tech) => (
+            <React.Fragment key={tech.id}>
               <div
                 key={tech.id}
                 className="flex items-center justify-center gap-3"

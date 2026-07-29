@@ -245,14 +245,22 @@ export const socialMedia = [
 export const certifications = [
   {
     id: 1,
-    title: "Technology	Job	Simulation",
+    title: "Technology Job	Simulation",
     issuer: "Deloitte",
     year: "2026",
     image: "/Screenshot 2026-07-26 002156.png",
     credential: "https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_6a586c45d6ac6ea542654b73_1784183896338_completion_certificate.pdf",
   },
   {
-    id: 2,
+  id: 2,
+  title: "Software Engineering Virtual Experience",
+  issuer: "JPMorgan Chase & Co.",
+  year: "2026",
+  image: "/Screenshot 2026-07-27 154752.png", // Replace with your certificate image
+  credential: "https://www.theforage.com/completion-certificates/Sj7temL583QAYpHXD/E6McHJDKsQYh79moz_Sj7temL583QAYpHXD_6a586c45d6ac6ea542654b73_1785147272191_completion_certificate.pdf",
+},
+  {
+    id: 3,
     title: "Oracle Generative AI Professional",
     issuer: "Oracle",
     year: "2025",
@@ -260,7 +268,7 @@ export const certifications = [
     credential: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=A9865FB264502C14C40E17D15ED6C3E1297C238841BF70EBC05B260E6F753BB9", // Certificate link
   },
   {
-    id: 3,
+    id: 4,
     title: "Career Essentials in Software Development",
     issuer: "Microsoft & LinkedIn",
     year: "2025",
@@ -269,7 +277,7 @@ export const certifications = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Java Programming",
     issuer: "Udemy",
     year: "2024",
@@ -281,17 +289,17 @@ export const certifications = [
 export const techStack = [
   { id: 1, name: "HTML5", img: "/html5.svg" },
   { id: 2, name: "CSS3", img: "/css3.svg" },
-  { id: 3, name: "JavaScript", img: "/javascript.svg" },
+  { id: 3, name: "JavaScript", img: "/javascript-plain.svg" },
   { id: 4, name: "TypeScript", img: "/typescript.svg" },
   { id: 5, name: "React.js", img: "/react.svg" },
   { id: 6, name: "Next.js", img: "/nextjs.svg" },
   { id: 7, name: "Redux", img: "/redux.svg" },
-  { id: 8, name: "Tailwind CSS", img: "/tailwindcss.svg" },
+  { id: 8, name: "Tailwind CSS", img: "/tailwindcss-original.svg" },
 
   { id: 9, name: "Node.js", img: "/nodejs.svg" },
   { id: 10, name: "Express.js", img: "/express.svg" },
-  { id: 11, name: "MongoDB", img: "/mongodb.svg" },
-  { id: 12, name: "MySQL", img: "/mysql.svg" },
+  { id: 11, name: "MongoDB", img: "/mongodb-original.svg" },
+  { id: 12, name: "MySQL", img: "/mysql-original-wordmark.svg" },
 
   { id: 13, name: "Java", img: "/java.svg" },
   { id: 14, name: "Python", img: "/python.svg" },
@@ -302,7 +310,7 @@ export const techStack = [
   { id: 17, name: "Git", img: "/git.svg" },
   { id: 18, name: "GitHub", img: "/github.svg" },
   { id: 19, name: "VS Code", img: "/vscode.svg" },
-  { id: 20, name: "Postman", img: "/postman.svg" },
+  { id: 20, name: "Postman", img: "/postman-original.svg" },
 
   { id: 21, name: "Vercel", img: "/vercel.svg" },
   { id: 22, name: "Netlify", img: "/netlify.svg" },
